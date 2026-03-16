@@ -25,7 +25,7 @@ This repository contains PDFs, images, and resources for learning Japanese Riich
 ## Quick Start
 Click any of the links above to access the PDFs. The Back Matter PDF contains attributions, licensing information, and credits for third-party content.  
 
-You can also view the guide as a **single-page website** by opening [`index.html`](index.html) in your browser.
+You can also view the guide as a **single-page website** by visiting the live page: [https://chris-riichi-guide.github.io/riichi-mahjong-guide/](https://chris-riichi-guide.github.io/riichi-mahjong-guide/)
 
 ---
 

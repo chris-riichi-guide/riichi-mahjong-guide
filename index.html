@@ -46,7 +46,7 @@
     .section-card {
       background-color: white;
       padding: 1.5rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
@@ -55,8 +55,17 @@
       margin-top: 0;
     }
 
-    .section-card ul {
-      padding-left: 1.5rem;
+    .pdf-container {
+      margin-top: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
     }
 
     a {
@@ -94,16 +103,45 @@
     <div class="section-card">
       <h2>Contents of the Guide</h2>
       <ul>
-        <li><a href="https://drive.google.com/file/d/1W7zNliTCBiy9pFGycgInqE9bEMDdl2h4/view?usp=sharing" target="_blank">Overview & Guide Introduction</a></li>
-        <li><a href="https://drive.google.com/file/d/1AsnPi7MfAekTsNRtLv9VDDeg6YEri5_y/view?usp=drive_link" target="_blank">Mahjong Tiles & Winning Hands</a></li>
-        <li><a href="https://drive.google.com/file/d/10QHXeSlsSIDnjcvCohd_gOb3O8IGVoyk/view?usp=drive_link" target="_blank">Setup & Gameplay Reference</a></li>
-        <li><a href="https://drive.google.com/file/d/1sDGVkwFPKyULWUV1MBNP-utDMGmjVPJu/view?usp=drive_link" target="_blank">Introduction to Tile Calls</a></li>
-        <li><a href="https://drive.google.com/file/d/1usQv915rMu5Pe2Osm0ZlMoYmy7X9B2nH/view?usp=drive_link" target="_blank">Essential Terms & Rules</a></li>
-        <li><a href="https://drive.google.com/file/d/1bAVqq3p2r00RGGgFj3qhXrs_zyMNWwST/view?usp=drive_link" target="_blank">List of Yaku</a></li>
-        <li><a href="https://drive.google.com/file/d/1yfWkbjx-XPUD9Pm6fq7-qHXdr9DZ4PGB/view?usp=drive_link" target="_blank">How to Calculate a Hand’s Score</a></li>
-        <li><a href="https://drive.google.com/file/d/1BvgSFjtO6ymr4aAKKtbTEhobZqiT9UQ9/view?usp=drive_link" target="_blank">Additional Rules & Supplementary Material</a></li>
-        <li><a href="https://docs.google.com/document/d/1f1W-xCwdGSmZrv0_hjXvrAW4cQwYL69NFjirhelgqrM/edit?usp=drive_link" target="_blank">Back Matter (Attributions & Licensing)</a></li>
+        <li>Overview & Guide Introduction</li>
+        <li>Mahjong Tiles & Winning Hands</li>
+        <li>Setup & Gameplay Reference</li>
+        <li>Introduction to Tile Calls</li>
+        <li>Essential Terms & Rules</li>
+        <li>List of Yaku</li>
+        <li>How to Calculate a Hand’s Score</li>
+        <li>Additional Rules & Supplementary Material</li>
+        <li>Back Matter (Attributions & Licensing)</li>
       </ul>
+
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/1W7zNliTCBiy9pFGycgInqE9bEMDdl2h4/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/1AsnPi7MfAekTsNRtLv9VDDeg6YEri5_y/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/10QHXeSlsSIDnjcvCohd_gOb3O8IGVoyk/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/1sDGVkwFPKyULWUV1MBNP-utDMGmjVPJu/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/1usQv915rMu5Pe2Osm0ZlMoYmy7X9B2nH/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/1bAVqq3p2r00RGGgFj3qhXrs_zyMNWwST/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/1yfWkbjx-XPUD9Pm6fq7-qHXdr9DZ4PGB/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://drive.google.com/file/d/1BvgSFjtO6ymr4aAKKtbTEhobZqiT9UQ9/preview"></iframe>
+      </div>
+      <div class="pdf-container">
+        <iframe src="https://docs.google.com/document/d/1f1W-xCwdGSmZrv0_hjXvrAW4cQwYL69NFjirhelgqrM/preview"></iframe>
+      </div>
+
     </div>
 
     <div class="section-card">
@@ -119,13 +157,6 @@
     <div class="section-card">
       <h2>Feedback & Suggestions</h2>
       <p>If you find errors, have questions, or want to suggest improvements, please leave a comment or email me at <a href="mailto:riichimahjongguide@gmail.com">riichimahjongguide@gmail.com</a>.</p>
-    </div>
-
-    <div class="section-card">
-      <h2>Terms of Use</h2>
-      <p>
-        This guide and all associated materials are provided for personal, educational, and non-commercial use only. You may share or redistribute the PDFs and content as long as all copyright notices, license information, and attributions are retained. Commercial use, resale, or use in paid services is strictly prohibited without prior written permission from the author. All third-party content remains the property of its respective rights holders, and inclusion in this guide does not imply endorsement or affiliation.
-      </p>
     </div>
 
   </main>

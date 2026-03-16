@@ -4,7 +4,7 @@ A Guide for Learning and Playing Japanese Mahjong
 ---
 
 ## About
-This repository contains PDFs, images, and resources for learning Japanese Riichi Mahjong. The guide is designed for beginners to intermediate players and includes step-by-step learning materials.
+This repository contains PDFs, images, and resources for learning Japanese Riichi Mahjong. The guide is designed for beginners and includes step-by-step learning materials.
 
 ---
 

@@ -52,6 +52,9 @@ header p{
   border-radius:8px;
   margin-top:1rem;
   border:2px solid #fff;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 main{
@@ -66,13 +69,21 @@ main{
   margin-bottom:1.5rem;
   border-radius:8px;
   box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  border-left:4px solid #2980b9;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.section-card:hover{
+  transform: translateY(-3px);
+  box-shadow:0 6px 12px rgba(0,0,0,0.15);
 }
 
 .section-card h2{
   margin-top:0;
+  color:#1a5276;
 }
 
-.section-card ol{
+.section-card ol, .section-card ul{
   padding-left:1.5rem;
 }
 
@@ -88,6 +99,7 @@ a:hover{
 .quick-start{
   font-style:italic;
   margin-bottom:1rem;
+  display:block;
 }
 
 footer{
@@ -95,12 +107,30 @@ footer{
   padding:2rem 1rem;
   font-size:0.9rem;
   color:#555;
+  line-height:1.4;
 }
 
 .host-info{
   font-size:0.8rem;
   color:#888;
   margin-top:1rem;
+}
+
+/* Mobile improvements */
+@media(max-width:600px){
+  header h1{
+    font-size:1.5rem;
+  }
+  .cover-image{
+    max-width:90%;
+  }
+  main{
+    margin:1rem auto;
+    padding:0 0.5rem;
+  }
+  .section-card{
+    padding:1rem;
+  }
 }
 </style>
 </head>
@@ -147,7 +177,6 @@ footer{
 I recommend taking a look at the Overview & Guide Introduction to get oriented. Click on the links below to access the various sections. The Back Matter includes full attributions and licensing information.
 </p>
 
-<!-- Start Here section -->
 <p><strong>Start here:</strong> <a href="0-Overview-and-Guide-Introduction.pdf" target="_blank">Overview & Guide Introduction</a></p>
 
 <hr style="border:none; border-top:1px solid #ccc; margin:1.5rem 0;">
